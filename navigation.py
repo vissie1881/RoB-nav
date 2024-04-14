@@ -6,8 +6,8 @@ from mapbox import Directions
 
 mapbox_token = "pk.eyJ1IjoidmlzMDkiLCJhIjoiY2xnMG1lenY5MTB1dDNncXI1MHdya3IyNyJ9.4fNDqh2u7-EtRzPPZfyfIA"
 
-start_location = "Chennai"
-end_location = "Banglore"
+start_location = "Anna University"
+end_location = "Anna Centenary Library"
 
 start_l = geocoder.osm(start_location)
 startt = start_l.lng, start_l.lat
